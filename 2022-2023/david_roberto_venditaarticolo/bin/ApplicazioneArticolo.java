@@ -1,3 +1,4 @@
+package bin;
 public class ApplicazioneArticolo
 {
     public static void main (String [] args){
