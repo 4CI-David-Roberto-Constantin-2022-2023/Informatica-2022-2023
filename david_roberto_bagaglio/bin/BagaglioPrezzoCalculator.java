@@ -4,7 +4,7 @@ public class BagaglioPrezzoCalculator    {
     private static final double COSTO_PER_KG=5.00;
     private static final double SOVRAPPREZZO=10.00;
     private Bagaglio bag;
-    private Scanner tastiera = new Scanner(System.in);
+    
     public BagaglioPrezzoCalculator(){
         bag = new Bagaglio();
     }
@@ -27,6 +27,7 @@ public class BagaglioPrezzoCalculator    {
         System.out.println("Il programma prende in input il peso di un bagaglio e ne calcola il prezzo, aggiungendo se necessario un sovraprezzo.");
     }
     public void prendiInput(){
+        private Scanner tastiera = new Scanner(System.in);
         System.out.println("Inserire il peso del bagaglio");
         bag.setWeight(tastiera.nextDouble());
      }
